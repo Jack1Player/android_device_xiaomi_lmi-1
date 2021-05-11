@@ -337,6 +337,9 @@ vendor/lib64/libmivendor_module_hall.so
 vendor/lib64/libmivendor_module_motor.so
 vendor/lib64/mi.motor.daemon.so
 
+# Camera (Popup custom sounds)
+media/audio/ui/popup_anime_moan_down.ogg|d458cc92846130f33212a82c71533c2448987380
+media/audio/ui/popup_anime_moan_up.ogg|98b48fc4eadbf85646f1dd83ef50857d90b1e2a2
 # Charger
 vendor/bin/batterysecret
 vendor/etc/init/init.batterysecret.rc
