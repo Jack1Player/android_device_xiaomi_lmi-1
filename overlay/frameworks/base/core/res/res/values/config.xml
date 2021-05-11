@@ -31,6 +31,11 @@
     <bool name="config_hasPopupCamera">true</bool>
 
     <!-- Enable face auth only when swiping security view -->
+
+    <!-- If true, the screen can be rotated via the accelerometer in all 4
+         rotations as the default behavior. -->
+    <bool name="config_allowAllRotations">true</bool>
+
     <bool name="config_faceAuthOnlyOnSecurityView">true</bool>
 
     <!-- BurnIn protection. This should be enabled on devices that have OLED displays -->
