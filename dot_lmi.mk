@@ -16,10 +16,14 @@ $(call inherit-product, vendor/dot/config/common.mk)
 
 
 TARGET_BOOT_ANIMATION_RES := 1080
+
 TARGET_INCLUDE_STOCK_ARCORE := true
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
 WITH_GAPPS := true
+
 EXTRA_FOD_ANIMATIONS = true
+
+TARGET_FACE_UNLOCK_SUPPORTED := true
 
 PRODUCT_NAME := dot_lmi
 PRODUCT_DEVICE := lmi
